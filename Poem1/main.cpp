@@ -54,3 +54,74 @@ public:
         return poems[index - 1];
     }
 };
+class PoemLibrary {
+    std::vector<Author> authors;
+
+public:
+    void loadFromFile(const std::string& filename) {
+        std::ifstream file(filename);
+        if (!file) {
+            std::cerr << "Could not open file." << std::endl;
+            return;
+        }
+
+        std::string line, authorName, title, content;
+        while (std::getline(file, line)) {
+            if (line.rfind("@Author:", 0) == 0) {
+                authorName = line.substr(8);
+            }
+            else if (line.rfind("@Title:", 0) == 0) {
+                title = line.substr(7);
+            }
+            else if (line.rfind("@Content:", 0) == 0) {
+                content.clear();
+                while (std::getline(file, line) && line != "---") {
+                    content += line + "\n";
+                }
+
+                auto it = std::find_if(authors.begin(), authors.end(),
+                    [&](const Author& a) { return a.getName() == authorName; });
+                if (it == authors.end()) {
+                    authors.emplace_back(authorName);
+                    it = authors.end() - 1;
+                }
+                it->addPoem(std::make_shared<ConcretePoem>(title, content));
+            }
+        }
+    }
+
+    void runInteractiveSession() {
+        std::cout << "Available authors:\n";
+        for (size_t i = 0; i < authors.size(); ++i) {
+            std::cout << i + 1 << ". " << authors[i].getName() << "\n";
+        }
+
+        std::cout << "Choose an author by number: ";
+        int choice;
+        std::cin >> choice;
+        std::cin.ignore();
+
+        if (choice < 1 || choice > authors.size()) {
+            std::cout << "Invalid choice." << std::endl;
+            return;
+        }
+
+        const Author& selected = authors[choice - 1];
+
+        std::cout << "\nPoems by " << selected.getName() << ":\n";
+        selected.listPoemTitles();
+
+        std::cout << "\nChoose a poem by number: ";
+        int poemIndex;
+        std::cin >> poemIndex;
+
+        auto poem = selected.getPoemByIndex(poemIndex);
+        if (poem) {
+            std::cout << "\n--- Poem Content ---\n";
+            poem->display();
+        }
+        else {
+            std::cout << "Invalid poem choice.\n";
+        }
+    }
+};
