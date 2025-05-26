@@ -5,6 +5,7 @@
 #include <string>
 #include <memory>
 #include <algorithm>
+
 class Poem {
 protected:
     std::string title;
@@ -18,6 +19,8 @@ public:
     virtual void display() const = 0;
     std::string getTitle() const { return title; }
 };
+
+
 class ConcretePoem : public Poem {
 public:
     ConcretePoem(const std::string& title, const std::string& content)
@@ -28,6 +31,7 @@ public:
         std::cout << "Title: " << title << "\n" << content << "\n";
     }
 };
+
 class Author {
     std::string name;
     std::vector<std::shared_ptr<Poem>> poems;
@@ -54,6 +58,7 @@ public:
         return poems[index - 1];
     }
 };
+
 class PoemLibrary {
     std::vector<Author> authors;
 
@@ -125,9 +130,12 @@ public:
         }
     }
 };
+
 int main() {
     PoemLibrary library;
     library.loadFromFile("poems_cleaned.txt");
     library.runInteractiveSession();
     return 0;
 }
+
+
