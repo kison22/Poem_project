@@ -18,3 +18,13 @@ public:
     virtual void display() const = 0;
     std::string getTitle() const { return title; }
 };
+class ConcretePoem : public Poem {
+public:
+    ConcretePoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "Title: " << title << "\n" << content << "\n";
+    }
+};
