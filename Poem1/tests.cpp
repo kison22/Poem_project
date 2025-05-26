@@ -21,3 +21,15 @@ void testAuthorPoemByIndex() {
     auto invalid = author.getPoemByIndex(10);
     assert(invalid == nullptr);
 }
+void testLibraryLoad() {
+    PoemLibrary library;
+    library.loadFromFile("poems_cleaned.txt");
+}
+
+int main() {
+    testPoemCreation();
+    testAuthorPoemByIndex();
+    testLibraryLoad();
+    std::cout << "All tests passed!\n";
+    return 0;
+}
