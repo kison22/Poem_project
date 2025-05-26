@@ -19,4 +19,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\project_v1\project_v1\poems_cleaned.txt" />
+  </ItemGroup>
 </Project>

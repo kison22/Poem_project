@@ -125,3 +125,9 @@ public:
         }
     }
 };
+int main() {
+    PoemLibrary library;
+    library.loadFromFile("poems_cleaned.txt");
+    library.runInteractiveSession();
+    return 0;
+}
