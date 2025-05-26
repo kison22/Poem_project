@@ -28,3 +28,29 @@ public:
         std::cout << "Title: " << title << "\n" << content << "\n";
     }
 };
+class Author {
+    std::string name;
+    std::vector<std::shared_ptr<Poem>> poems;
+
+public:
+    Author(const std::string& name) : name(name) {}
+
+    void addPoem(const std::shared_ptr<Poem>& poem) {
+        poems.push_back(poem);
+    }
+
+    const std::string& getName() const {
+        return name;
+    }
+
+    void listPoemTitles() const {
+        for (size_t i = 0; i < poems.size(); ++i) {
+            std::cout << "  " << i + 1 << ". " << poems[i]->getTitle() << "\n";
+        }
+    }
+
+    std::shared_ptr<Poem> getPoemByIndex(size_t index) const {
+        if (index < 1 || index > poems.size()) return nullptr;
+        return poems[index - 1];
+    }
+};
