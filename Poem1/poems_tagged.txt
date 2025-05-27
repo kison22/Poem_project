@@ -1,5 +1,6 @@
 @Author: WILLIAM SHAKESPEARE
 @Title: "OTHELLO," Act II, Sc. 3.
+@Type: religious
 @Content:
 *       *       *       *       *
 
@@ -13,6 +14,7 @@ And makes me poor indeed.
 ---
 @Author: WILLIAM SHAKESPEARE
 @Title: "LOVE'S LABOR'S LOST," Act V, Sc. 2.
+@Type: lyric
 @Content:
 *       *       *       *       *
 
@@ -23,6 +25,7 @@ Do paint the meadows with delight.
 ---
 @Author: WILLIAM SHAKESPEARE
 @Title: "RICHARD II," Act II, Sc. 1.
+@Type: narrative
 @Content:
 *       *       *       *       *
 
@@ -40,6 +43,7 @@ This blessed plot, this earth, this realm, this England.
 ---
 @Author: WILLIAM SHAKESPEARE
 @Title: From "WINTER'S TALE."
+@Type: lyric
 @Content:
 *       *       *       *       *
 
@@ -50,6 +54,7 @@ Your sad tires in a mile-a.
 ---
 @Author: WILLIAM SHAKESPEARE
 @Title: From "HENRY VIII."
+@Type: epic
 @Content:
 *       *       *       *       *
 The Downfall of Wolsey
@@ -79,6 +84,7 @@ Never to hope again.
 ---
 @Author: BEN JONSON
 @Title: THE NOBLE NATURE
+@Type: narrative
 @Content:
 *       *       *       *       *
 
@@ -93,9 +99,9 @@ It was the plant and flower of Light.
 In small proportions we just beauties see,
 And in short measures life may perfect be.
 ---
-
 @Author: JOHN MILTON
 @Title: SONG ON A MAY MORNING
+@Type: narrative
 @Content:
    *       *       *       *       *
 
@@ -111,9 +117,9 @@ Hill and dale doth boast thy blessing.
 Thus we salute thee with our early song,
 And welcome thee, and wish thee long.
 ---
-
 @Author: ISAAC WATTS
 @Title: OH GOD, OUR HELP IN AGES PAST
+@Type: religious
 @Content:
    *       *       *       *       *
 
@@ -142,325 +148,9 @@ Our hope for years to come,
 Be Thou our guard while troubles last,
 And our eternal home.
 ---
-
-@AuthorWILLIAM COWPER
-@Title: THE DIVERTING HISTORY OF JOHN GILPIN
-@Content:
-   *       *       *       *       *
-
-John Gilpin was a citizen,
-Of credit and renown,
-A trainband captain eke was he
-Of famous London town.
-
-John Gilpin's spouse said to her dear,
-'Though wedded we have been
-These twice ten tedious years, yet we
-No holiday have seen.
-
-"To-morrow is our wedding day,
-And we will then repair
-Unto the Bell at Edmonton
-All in a chaise and pair.
-
-"My sister, and my sister's child,
-Myself, and children three,
-Will fill the chaise; so you must ride
-On horseback after we."
-
-He soon replied, "I do admire
-Of womankind but one,
-And you are she, my dearest dear,
-Therefore it shall be done.
-
-"I am a linendraper bold,
-As all the world doth know,
-And my good friend the calender
-Will lend his horse to go."
-
-Quoth Mrs. Gilpin, "That's well said;
-And for that wine is dear,
-We will be furnished with our own,
-Which is both bright and clear."
-
-John Gilpin kiss'd his loving wife;
-O'erjoyed was he to find,
-That, though on pleasure she was bent,
-She had a frugal mind.
-
-The morning came, the chaise was brought,
-But yet was not allow'd
-To drive up to the door, lest all
-Should say that she was proud.
-
-So three doors off the chaise was stay'd,
-Where they did all get in;
-Six precious souls, and all agog
-To dash through thick and thin.
-
-Smack went the whip, round went the wheels,
-Were never folks so glad,
-The stones did rattle underneath,
-As if Cheapside were mad.
-
-John Gilpin at his horse's side
-Seized fast the flowing mane,
-And up he got, in haste to ride,
-But soon came down again;
-
-For saddletree scarce reach'd had he
-His journey to begin,
-When, turning round his head, he saw
-Three customers come in.
-
-So down he came; for loss of time,
-Although it grieved him sore,
-Yet loss of pence, full well he knew,
-Would trouble him much more.
-
-'Twas long before the customers
-Were suited to their mind,
-When Betty screaming came downstairs,
-"The wine is left behind!"
-
-"Good lack!" quoth he--"yet bring it me,
-My leathern belt likewise,
-In which I bear my trusty sword
-When I do exercise."
-
-Now Mistress Gilpin (careful soul!)
-Had two stone bottles found,
-To hold the liquor that she loved
-And keep it safe and sound.
-
-Then over all, that he might be
-Equipp'd from top to toe,
-His long red cloak, well brush'd and neat,
-He manfully did throw.
-
-Now see him mounted once again
-Upon his nimble steed,
-Full slowly pacing o'er the stones,
-With caution and good heed.
-
-But finding soon a smoother road
-Beneath his well-shod feet,
-The snorting beast began to trot,
-Which gall'd him in his seat.
-
-"So, fair and softly," John he cried,
-But John he cried in vain;
-That trot became a gallop soon,
-In spite of curb and rein.
-
-So stooping down, as needs he must
-Who cannot sit upright,
-He grasp'd the mane with both his hands,
-And eke with all his might.
-
-His horse, who never in that sort
-Had handled been before,
-What thing upon his back had got
-Did wonder more and more.
-
-Away went Gilpin, neck or nought;
-Away went hat and wig;
-He little dreamt, when he set out,
-Of running such a rig.
-
-The wind did blow, the cloak did fly,
-Like streamer long and gay,
-Till, loop and button failing both,
-At last it flew away.
-
-Then might all people well discern
-The bottles he had slung;
-A bottle swinging at each side,
-As hath been said or sung.
-
-The dogs did bark, the children scream'd,
-Up flew the windows all;
-And every soul cried out, "Well done!"
-As loud as he could bawl.
-
-Away went Gilpin--who but he?
-His fame soon spread around,
-"He carries weight! he rides a race!
-'Tis for a thousand pound!"
-
-And still as fast as he drew near,
-'Twas wonderful to view,
-How in a trice the turnpike men
-Their gates wide open threw.
-
-And now, as he went bowing down
-His reeking head full low,
-The bottles twain behind his back
-Were shatter'd at a blow.
-
-Down ran the wine into the road,
-Most piteous to be seen,
-Which made his horse's flanks to smoke
-As they had basted been.
-
-But still he seem'd to carry weight,
-With leathern girdle braced;
-For all might see the bottle necks
-Still dangling at his waist.
-
-Thus all through merry Islington
-These gambols did he play,
-Until he came unto the Wash
-Of Edmonton so gay;
-
-And there he threw the wash about
-On both sides of the way,
-Just like unto a trundling mop,
-Or a wild goose at play.
-
-At Edmonton his loving wife
-From the balcony spied
-Her tender husband, wondering much
-To see how he did ride.
-
-"Stop, stop, John Gilpin!--here's the house,"
-They all at once did cry;
-"The dinner waits, and we are tired:"
-Said Gilpin--"So am I!"
-
-But yet his horse was not a whit
-Inclined to tarry there;
-For why?--his owner had a house
-Full ten miles off, at Ware.
-
-So like an arrow swift he flew,
-Shot by an archer strong;
-So did he fly--which brings me to
-The middle of my song.
-
-Away went Gilpin out of breath,
-And sore against his will,
-Till at his friend the calender's
-His horse at last stood still.
-
-The calender, amazed to see
-His neighbor in such trim,
-Laid down his pipe, flew to the gate,
-And thus accosted him:
-
-"What news? what news? your tidings tell
-Tell me you must and shall--
-Say why bareheaded you are come,
-Or why you come at all?"
-
-Now Gilpin had a pleasant wit,
-And loved a timely joke;
-And thus unto the calender
-In merry guise he spoke:
-
-"I came because your horse would come;
-And, if I well forbode,
-My hat and wig will soon be here,
-They are upon the road."
-
-The calender, right glad to find
-His friend in merry pin,
-Return'd him not a single word,
-But to the house went in;
-
-Whence straight he came with hat and wig,
-A wig that flow'd behind,
-A hat not much the worse for wear,
-Each comely in its kind.
-
-He held them up, and in his turn
-Thus show'd his ready wit,
-"My head is twice as big as yours,
-They therefore needs must fit.
-
-"But let me scrape the dirt away
-That hangs upon your face;
-And stop and eat, for well you may
-Be in a hungry case."
-
-Said John, "It is my wedding day,
-And all the world would stare,
-If wife should dine at Edmonton,
-And I should dine at Ware."
-
-So turning to his horse, he said,
-"I am in haste to dine;
-'Twas for your pleasure you came here,
-You shall go back for mine."
-
-Ah luckless speech, and bootless boast!
-For which he paid full dear;
-For, while he spake, a braying ass
-Did sing most loud and clear;
-
-Whereat his horse did snort, as he
-Had heard a lion roar,
-And gallop'd off with all his might,
-As he had done before.
-
-Away went Gilpin, and away
-Went Gilpin's hat and wig:
-He lost them sooner than at first,
-For why?--they were too big.
-
-Now Mistress Gilpin, when she saw
-Her husband posting down
-Into the country far away,
-She pull'd out half a crown;
-
-And thus unto the youth she said,
-That drove them to the Bell,
-"This shall be yours, when you bring back
-My husband safe and well."
-
-The youth did ride, and soon did meet
-John coming back amain;
-Whom in a trice he tried to stop,
-By catching at his rein;
-
-But not performing what he meant,
-And gladly would have done,
-The frighted steed he frighted more,
-And made him faster run.
-
-Away went Gilpin, and away
-Went postboy at his heels,
-The postboy's horse right glad to miss
-The lumbering of the wheels.
-
-Six gentlemen upon the road,
-Thus seeing Gilpin fly,
-With postboy scampering in the rear,
-They raised the hue and cry:--
-
-"Stop thief! stop thief!--a highwayman!"
-Not one of them was mute;
-And all and each that passed that way
-Did join in the pursuit.
-
-And now the turnpike gates again
-Flew open in short space;
-The toll-men thinking as before,
-That Gilpin rode a race.
-
-And so he did, and won it too,
-For he got first to town;
-Nor stopp'd till where he had got up
-He did again get down.
-
-Now let us sing, "Long live the king,
-And Gilpin long live he;"
-And when he next doth ride abroad,
-May I be there to see!
----
-
 @Author: ROBERT BURNS
 @Title: BANNOCKBURN
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -498,6 +188,7 @@ Let us do or die!
 ---
 @Author: ROBERT BURNS
 @Title: MY HEART'S IN THE HIGHLANDS
+@Type: patriotic
 @Content:
        *       *       *       *       *
 
@@ -519,9 +210,9 @@ My heart's in the Highlands a-chasing the deer;
 Chasing the wild deer, and following the roe,
 My heart's in the Highlands, wherever I go.
 ---
-
 @Author: WILLIAM WORDSWORTH
 @Title: THE SOLITARY REAPER
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -561,56 +252,10 @@ And, as I mounted up the hill,
 The music in my heart I bore
 Long after it was heard no more.
 ---
-
-@Author: WALTER SCOTT
-Title: "SOLDIER, REST!"
-@Content: 
-       *       *       *       *       *
-
-Soldier, rest! thy warfare o'er,
-Sleep the sleep that knows no breaking;
-Dream of battle-fields no more,
-Days of danger, nights of waking,
-In our isle's enchanted hall,
-Hands unseen thy couch are strewing,
-Fairy strains of music fall,
-Every sense in slumber dewing.
-Soldier, rest! thy warfare o'er,
-Sleep the sleep that knows no breaking;
-Dream of battle-fields no more,
-Morn of toil, nor night of waking.
-
-No rude sound shall reach thine ear,
-Armor's clang, or war-steed champing,
-Trump nor pibroch summon here,
-Mustering clan, or squadron tramping.
-Yet the lark's shrill fife may come,
-At the daybreak from the fallow,
-
-And the bittern sound his drum,
-Booming from the sedgy shallow.
-Ruder sounds shall none be near,
-Guards nor warders challenge here;
-Here's no war-steed's neigh and champing,
-Shouting clans or squadrons stamping.
-
-Huntsman, rest! thy chase is done;
-While our slumb'rous spells assail ye,
-Dream not with the rising sun,
-Bugles here shall sound reveille.
-Sleep! the deer is in his den;
-Sleep! thy hounds are by thee lying;
-Sleep! nor dream in yonder glen,
-How thy gallant steed lay dying.
-Huntsman, rest! thy chase is done;
-Think not of the rising sun,
-For at dawning to assail ye,
-Here no bugle sounds reveille.
----
-
 @Author: WALTER SCOTT
 @Title: LOCHINVAR
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 Oh, young Lochinvar is come out of the west;
@@ -669,49 +314,9 @@ But the lost bride of Netherby ne'er did they see.
 So daring in love, and so dauntless in war,
 Have ye e'er heard of gallant like young Lochinvar?
 ---
-
-@Author: FRANCIS SCOTT KEY
-@Title: THE STAR-SPANGLED BANNER
-
-O say, can you see, by the dawn's early light,
-What so proudly we hailed at the twilight's last  gleaming--
-Whose broad stripes and bright stars, through the  clouds of the fight
-O'er the ramparts we watched were so gallantly streaming!
-And the rocket's red glare, the bombs bursting in air,
-Gave proof through the night that our flag was still there.
-O! say, does the star-spangled banner yet wave
-O'er the land of the free, and the home of the brave?
-
-On that shore dimly see through the mists of the deep
-Where the foe's haughty host in dread silence reposes,
-What is that which the breeze, o'er the towering steep,
-As it fitfully blows, now conceals, now discloses?
-Now it catches the gleam of the morning's first beam,
-In full glory reflected now shines on the stream;
-'Tis the star-spangled banner; O long may it wave
-O'er the land of the free, and the home of the brave!
-
-And where is that band who so vauntingly swore
-That the havoc of war and the battle's confusion
-A home and a country should leave us no more?
-Their blood has washed out their foul footsteps' pollution.
-No refuge could save the hireling and slave
-From the terror of flight, or the gloom of the grave;
-And the star-spangled banner in triumph doth wave
-O'er the land of the free, and the home of the brave.
-
-O! thus be it ever, when freemen shall stand
-Between their loved homes and war's desolation!
-Blest with victory and peace, may the heav'n rescued land
-Praise the power that hath made and preserved us a nation.
-Then conquer we must, when our cause it is just,
-And this be our motto--"_In God is our trust_:"
-And the star-spangled banner in triumph shall wave
-O'er the land of the free, and the home of the brave.
----
-
 @Author: THOMAS CAMPBELL
 @Title: HOHENLINDEN
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -755,9 +360,9 @@ The snow shall be their winding-sheet,
 And every turf beneath their feet
 Shall be a soldier's sepulcher.
 ---
-
 @Author: THOMAS MOORE
 @Title: THE HARP THAT ONCE THROUGH TARA'S HALLS
+@Type: narrative
 @Content:
        *       *       *       *       *
 
@@ -779,10 +384,10 @@ The only throb she gives
 Is when some heart indignant breaks,
 To show that still she lives.
 ---
-
 @Author: GEORGE GORDON NOEL, LORD BYRON
 @Title: CHILDE HAROLD'S FAREWELL TO ENGLAND
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 Adieu, adieu! my native shore
@@ -830,9 +435,9 @@ Such tears become thine eye;
 If I thy guileless bosom had,
 Mine own would not be dry."
 ---
-
 @Author: GEORGE GORDON NOEL, LORD BYRON
 @Title: THE NIGHT BEFORE WATERLOO
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -889,10 +494,10 @@ Rider and horse--friend, foe--in one red burial blent!
 
 --From "CHILDE HAROLD'S PILGRIMAGE."
 ---
-
 @Author: HENRY FRANCIS LYTE
 @Title: ABIDE WITH ME
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 Abide with me! Fast falls the eventide;
@@ -920,9 +525,9 @@ Shine through the gloom, and point me to the skies;
 Heaven's morning breaks, and earth's vain shadows flee;
 In life, in death, O Lord, abide with me.
 ---
-
 @Author:THOMAS B. MACAULAY
 @Title: HORATIUS AT THE BRIDGE
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1004,11 +609,9 @@ Now round him throng the fathers to press his gory hands.
 And now, with shouts and clapping, and noise of weeping loud,
 He enters through the river gate, borne by the joyous crowd.
 ---
-
-
-
 @Author: ALFRED TENNYSON
 @Title:EARLY SPRING
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1068,9 +671,9 @@ The flower with dew;
 The blackbirds have their wills,
 The poets too.
 ---
-
 @Author: ALFRED TENNYSON
 @Title: SIR GALAHAD
+@Type: religious
 @Content:
        *       *       *       *       *
  
@@ -1167,7 +770,8 @@ Until I find the Holy Grail.
 ---
 @Author: ALFRED TENNYSON
 @Title:THE CHARGE OF THE LIGHT BRIGADE
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 Half a league, half a league,
@@ -1232,9 +836,9 @@ Honor the charge they made,
 Honor the Light Brigade,
 Noble six hundred!
 ---
-
 @Author: ALFRED TENNYSON
 @Title: RING OUT, WILD BELLS
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1278,9 +882,9 @@ The larger heart, the kindlier hand;
 Ring out the darkness of the land,
 Ring in the Christ that is to be.
 ---
-
 @Author: ALFRED DOMETT
 @Title: A CHRISTMAS HYMN
+@Type: religious
 @Content:
        *       *       *       *       *
 
@@ -1339,9 +943,9 @@ The peaceful Prince of Earth and Heaven,
 In the solemn midnight,
 Centuries ago!
 ---
-
 @Author: ROBERT BROWNING
 @Title: HOME-THOUGHTS FROM ABROAD
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1367,9 +971,9 @@ All will be gay when noontide wakes anew
 The buttercups, the little children's dower--
 Far brighter than this gaudy melon-flower!
 ---
-
 @Author: ROBERT BROWNING
 @Title: PHEIDIPPIDES
+@Type: religious
 @Content:
        *       *       *       *       *
 
@@ -1509,9 +1113,9 @@ Such tidings, yet never decline, but, gloriously as he began,
 So to end gloriously--once to shout, thereafter be mute:
 "Athens is saved!"--Pheidippides dies in the shout for his meed.
 ---
-
 @Author: HELEN HUNT JACKSON
 @Title: A SONG OF CLOVER
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1542,10 +1146,10 @@ Sweetest, perhaps, at last, in death!
 Oh! who knows what the Clover thinks?
 No one! unless the Bob-o'-links!
 ---
-
 @Author: LEWIS CARROLL
 @Title: A SONG OF LOVE
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 Say, what is the spell, when her fledglings are cheeping,
@@ -1584,9 +1188,9 @@ For I think it is Love,
 For I feel it is Love,
 For I'm sure it is nothing but Love!
 ---
-
 @Author: ANDREW LANG
 @Title: SCYTHE SONG
+@Type: narrative
 @Content:
        *       *       *       *       *
 
@@ -1608,10 +1212,10 @@ _Hush, and heed not, for all things pass;_
 _Hush, ah hush! and the Scythes are swinging_
 Over the clover, over the grass!
 ---
-
 @Author: ALGERNON CHARLES SWINBURNE
 @Title: WHITE BUTTERFLIES
-@Content: 
+@Type: narrative
+@Content:
        *       *       *       *       *
 
 Fly, white butterflies, out to sea,
@@ -1624,10 +1228,10 @@ Some fly soft as a long, low sigh;
 All to the haven where each would be,
 Fly!
 ---
-
 @Author: RUDYARD KIPLING
 @Title: RECESSIONAL
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 A VICTORIAN ODE
@@ -1669,9 +1273,9 @@ Thy mercy on Thy people, Lord!
 
 Amen.
 ---
-
 @Author: WILLIAM CULLEN BRYANT
 @Title: TO A WATERFOWL
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1717,6 +1321,7 @@ Will lead my steps aright.
 ---
 @Author: WILLIAM CULLEN BRYANT
 @Title: THE DEATH OF THE FLOWERS
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1755,100 +1360,10 @@ And we wept that one so lovely should have a life so brief:
 Yet not unmeet was it that one like that young friend of ours,
 So gentle and so beautiful, should perish with the flowers.
 ---
-
-@Author: WILLIAM CULLEN BRYANT
-@Title: THANATOPSIS
-Content: 
-       *       *       *       *       *
-
-To him who in the love of Nature holds
-Communion with her visible forms, she speaks
-A various language; for his gayer hours
-She has a voice of gladness, and a smile
-And eloquence of beauty, and she glides
-Into his darker musings, with a mild
-And healing sympathy, that steals away
-Their sharpness, ere he is aware. When thoughts
-Of the last bitter hour come like a blight
-Over thy spirit, and sad images
-Of the stern agony, and shroud, and pall,
-And breathless darkness, and the narrow house,
-Make thee to shudder, and grow sick at heart;--
-Go forth, under the open sky, and list
-To Nature's teachings, while from all around--
-Earth and her waters, and the depths of air--
-Comes a still voice--Yet a few days, and thee
-The all-beholding sun shall see no more
-In all his course; nor yet in the cold ground,
-Where thy pale form was laid, with many tears,
-Nor in the embrace of ocean, shall exist
-Thy image. Earth, that nourished thee, shall claim
-Thy growth, to be resolved to earth again,
-And, lost each human trace, surrendering up
-Thine individual being, shalt thou go
-To mix for ever with the elements,
-To be a brother to the insensible rock
-And to the sluggish clod, which the rude swain
-Turns with his share, and treads upon. The oak
-Shall send his roots abroad, and pierce thy mold.
-
-Yet not to thine eternal resting-place
-Shalt thou retire alone, nor couldst thou wish
-Couch more magnificent. Thou shalt lie down
-With patriarchs of the infant world--with kings,
-The powerful of the earth--the wise, the good,
-Fair forms, and hoary seers of ages past,
-All in one mighty sepulchre. The hills
-Rock-ribbed and ancient as the sun,--the vales
-Stretching in pensive quietness between;
-The venerable woods--rivers that move
-In majesty, and the complaining brooks
-That make the meadows green; and, poured round all,
-Old ocean's gray and melancholy waste,--
-Are but the solemn decorations all
-Of the great tomb of man. The golden sun,
-The planets, all the infinite host of heaven,
-Are shining on the sad abodes of death,
-Through the still lapse of ages. All that tread
-The globe are but a handful to the tribes
-That slumber in its bosom.--Take the wings
-Of morning, pierce the Barcan wilderness,
-Or lose thyself in the continuous woods
-Where rolls the Oregon, and hears no sound,
-Save his own dashings--yet the dead are there:
-And millions in those solitudes, since first
-The flight of years began, have laid them down
-In their last sleep--the dead reign there alone.
-So shalt thou rest, and what if thou withdraw
-In silence from the living, and no friend
-Take note of thy departure? All that breathe
-Will share thy destiny. The gay will laugh
-When thou art gone, the solemn brood of care
-Plod on, and each one as before will chase
-His favorite phantom; yet all these shall leave
-Their mirth and their employments, and shall come
-And make their bed with thee. As the long train
-Of ages glides away, the sons of men,
-The youth in life's fresh spring, and he who goes
-In the full strength of years, matron, and maid,
-The speechless babe, and the gray-headed man,--
-Shall one by one be gathered to thy side,
-By those, who in their turn shall follow them.
-
-So live, that when thy summons comes to join
-The innumerable caravan, which moves
-To that mysterious realm, where each shall take
-His chamber in the silent halls of death,
-Thou go not, like the quarry-slave at night,
-Scourged to his dungeon, but, sustained and soothed
-By an unfaltering trust, approach thy grave,
-Like one who wraps the drapery of his couch
-About him, and lies down to pleasant dreams.
----
-
 @Author: RALPH WALDO EMERSON
 @Title: THE HARP
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 'Twas one of the charmed days
@@ -1903,9 +1418,9 @@ A pillow in her greenest field,
 Nor the June flowers scorn to cover
 The clay of their departed lover."
 ---
-
 @Author: HENRY WADSWORTH LONGFELLOW
 @Title: DAYBREAK
+@Type: epic
 @Content:
        *       *       *       *       *
 
@@ -1936,10 +1451,10 @@ It shouted through the belfry-tower,
 It crossed the churchyard with a sigh,
 And said, "Not yet! in quiet lie."
 ---
-
 @Author: HENRY WADSWORTH LONGFELLOW
 @Title: THE FIFTIETH BIRTHDAY OF AGASSIZ
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 May 28, 1857
@@ -1984,10 +1499,10 @@ For his voice I listen and yearn;
 It is growing late and dark,
 And my boy does not return!"
 ---
-
 @Author: HENRY WADSWORTH LONGFELLOW
 @Title: HYMN TO THE NIGHT
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 I heard the trailing garments of the Night
@@ -2020,9 +1535,9 @@ Descend with broad-winged flight,
 The welcome, the thrice-prayed for, the most fair,
 The best-beloved Night!
 ---
-
 @Author: JAMES RUSSELL LOWELL
 @Title: LONGING
+@Type: religious
 @Content:
        *       *       *       *       *
 
@@ -2062,10 +1577,10 @@ Beyond self-satisfaction,
 When we are simply good in thought,
 Howe'er we fail in action.
 ---
-
 @Author: JAMES RUSSELL LOWELL
 @Title:THE FINDING OF THE LYRE
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 There lay upon the ocean's shore
@@ -2104,10 +1619,10 @@ Dead shell, of soul and thought forsaken,
 Brought we but eyes like Mercury's,
 In thee what songs should waken!
 ---
-
 @Author: JOHN BURROUGHS
 @Title: WAITING
-@Content: 
+@Type: epic
+@Content:
        *       *       *       *       *
 
 Serene, I fold my hands and wait,
@@ -2140,9 +1655,9 @@ The tidal wave unto the sea;
 Nor time, nor space, nor deep, nor high,
 Can keep my own away from me.
 ---
-
 @Author: JOAQUIN MILLER
 @Title: COLUMBUS
+@Type: religious
 @Content:
        *       *       *       *       *
 
@@ -2191,72 +1706,9 @@ It grew to be Time's burst of dawn.
 He gained a world; he gave that world
 Its greatest lesson: "On! sail on!"
 ---
-
-@Author: JOHN VANCE CHENEY
-@Title: EVENING SONGS[1]
-Content:
-       *       *       *       *       *
-
-I
-
-The birds have hid, the winds are low,
-The brake is awake, the grass aglow:
-The bat is the rover,
-No bee on the clover,
-The day is over,
-And evening come.
-
-The heavy beetle spreads her wings,
-The toad has the road, the cricket sings:
-The bat is the rover,
-No bee on the clover,
-The day is over,
-And evening come.
-
-II
-
-It is that pale, delaying hour
-When nature closes like a flower,
-And on the spirit lies,
-The silence of the earth and skies.
-The world has thoughts she will not own
-When shade and dream with night have flown;
-Bright overhead, a star
-Makes golden guesses what they are.
-
-
-III
-
-Now is Light, sweet mother, down the west,
-With little Song against her breast;
-She took him up, all tired with play,
-And fondly bore him far away.
-
-While he sleeps, one wanders in his stead,
-A fainter glory round her head;
-She follows happy waters after,
-Leaving behind low, rippling laughter.
-
-IV
-
-Behind the hilltop drops the sun,
-The curled heat falters on the sand,
-While evening's ushers, one by one,
-Lead in the guests of Twilight Land.
-
-The bird is silent overhead,
-Below the beast has laid him down;
-Afar, the marbles watch the dead,
-The lonely steeple guards the town.
-
-The south wind feels its amorous course
-To cloistered sweet in thickets found;
-The leaves obey its tender force,
-And stir 'twixt silence and a sound.
----
-
 @Author: BLISS CARMAN
 @Title: A VAGABOND SONG
+@Type: narrative
 @Content:
        *       *       *       *       *
 
@@ -2275,9 +1727,9 @@ We must rise and follow her,
 When from every hill of fame
 She calls and calls each vagabond by name.
 ---
-
 @Author: JAMES WHITCOMB RILEY
 @Title: OLD GLORY
+@Type: religious
 @Content:
        *       *       *       *       *
 
@@ -2326,10 +1778,10 @@ Or droop o'er the sod where the long grasses nod,--
 My name is as old as the glory of God
 So I came by the name of Old Glory.
 ---
-       
 @Author: HENRY WADSWORTH LONGFELLOW
 @Title: KAVANAGH
-@Content: 
+@Type: religious
+@Content:
        *       *       *       *       *
 
 Ah, how wonderful is the advent of the spring!--
@@ -2401,8 +1853,3 @@ trampling hoofs,--no more rattling wheels! Only
 the chiming sleigh bells, beating as swift and merrily
 as the hearts of children.
 ---
-
-
-
-
-

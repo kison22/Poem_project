@@ -131,7 +131,7 @@
     <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\project_v1\project_v1\poems_cleaned.txt" />
+    <Text Include="poems_tagged.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

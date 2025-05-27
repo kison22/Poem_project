@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -17,18 +17,112 @@ public:
     }
 
     virtual void display() const = 0;
+    virtual ~Poem() {}
     std::string getTitle() const { return title; }
 };
 
-
-class ConcretePoem : public Poem {
+class HaikuPoem : public Poem {
 public:
-    ConcretePoem(const std::string& title, const std::string& content)
+    HaikuPoem(const std::string& title, const std::string& content)
         : Poem(title, content) {
     }
 
     void display() const override {
-        std::cout << "Title: " << title << "\n" << content << "\n";
+        std::cout << "[Haiku] " << title << ":\n";
+        std::istringstream iss(content);
+        std::string line;
+        int count = 0;
+        while (std::getline(iss, line) && count < 3) {
+            std::cout << line << "\n";
+            ++count;
+        }
+    }
+};
+
+class SonnetPoem : public Poem {
+public:
+    SonnetPoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Sonnet] " << title << ":\n";
+        std::istringstream iss(content);
+        std::string line;
+        int lines = 0;
+        while (std::getline(iss, line)) {
+            std::cout << line << "\n";
+            ++lines;
+        }
+        if (lines != 14) {
+            std::cout << "(Warning: not exactly 14 lines)\n";
+        }
+    }
+};
+
+class FreeVersePoem : public Poem {
+public:
+    FreeVersePoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Free Verse] " << title << ":\n" << content << "\n";
+    }
+};
+
+class NarrativePoem : public Poem {
+public:
+    NarrativePoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Narrative] " << title << ":\n" << content << "\n";
+    }
+};
+
+class LyricPoem : public Poem {
+public:
+    LyricPoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Lyric] " << title << ":\n" << content << "\n";
+    }
+};
+
+class ReligiousPoem : public Poem {
+public:
+    ReligiousPoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Religious] " << title << " (may God bless us):\n" << content << "\n";
+    }
+};
+
+class PatrioticPoem : public Poem {
+public:
+    PatrioticPoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Patriotic] " << title << " 🇺🇦\n" << content << "\n";
+    }
+};
+
+class EpicPoem : public Poem {
+public:
+    EpicPoem(const std::string& title, const std::string& content)
+        : Poem(title, content) {
+    }
+
+    void display() const override {
+        std::cout << "[Epic] " << title << ":\n" << content << "\n--- [End of Epic]\n";
     }
 };
 
@@ -62,6 +156,17 @@ public:
 class PoemLibrary {
     std::vector<Author> authors;
 
+    std::shared_ptr<Poem> createPoemByType(const std::string& type, const std::string& title, const std::string& content) {
+        if (type == "haiku")     return std::make_shared<HaikuPoem>(title, content);
+        if (type == "sonnet")    return std::make_shared<SonnetPoem>(title, content);
+        if (type == "narrative") return std::make_shared<NarrativePoem>(title, content);
+        if (type == "epic")      return std::make_shared<EpicPoem>(title, content);
+        if (type == "lyric")     return std::make_shared<LyricPoem>(title, content);
+        if (type == "religious") return std::make_shared<ReligiousPoem>(title, content);
+        if (type == "patriotic") return std::make_shared<PatrioticPoem>(title, content);
+        return std::make_shared<FreeVersePoem>(title, content); // fallback
+    }
+
 public:
     void loadFromFile(const std::string& filename) {
         std::ifstream file(filename);
@@ -70,7 +175,7 @@ public:
             return;
         }
 
-        std::string line, authorName, title, content;
+        std::string line, authorName, title, type, content;
         while (std::getline(file, line)) {
             if (line.rfind("@Author:", 0) == 0) {
                 authorName = line.substr(8);
@@ -78,19 +183,23 @@ public:
             else if (line.rfind("@Title:", 0) == 0) {
                 title = line.substr(7);
             }
+            else if (line.rfind("@Type:", 0) == 0) {
+                type = line.substr(6);
+                type.erase(0, type.find_first_not_of(" \t\r\n"));
+                type.erase(type.find_last_not_of(" \t\r\n") + 1);
+            }
             else if (line.rfind("@Content:", 0) == 0) {
                 content.clear();
                 while (std::getline(file, line) && line != "---") {
                     content += line + "\n";
                 }
-
                 auto it = std::find_if(authors.begin(), authors.end(),
                     [&](const Author& a) { return a.getName() == authorName; });
                 if (it == authors.end()) {
                     authors.emplace_back(authorName);
                     it = authors.end() - 1;
                 }
-                it->addPoem(std::make_shared<ConcretePoem>(title, content));
+                it->addPoem(createPoemByType(type, title, content));
             }
         }
     }
@@ -133,9 +242,7 @@ public:
 
 int main() {
     PoemLibrary library;
-    library.loadFromFile("poems_cleaned.txt");
+    library.loadFromFile("poems_tagged.txt");
     library.runInteractiveSession();
     return 0;
 }
-
-
