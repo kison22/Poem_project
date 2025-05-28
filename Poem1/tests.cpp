@@ -18,3 +18,15 @@ void testPoemCreation() {
     assert(output.find("Line four") == std::string::npos);  
 }
 
+void testAuthorPoemByIndex() {
+    Author author("Author A");
+    author.addPoem(std::make_shared<FreeVersePoem>("Poem 1", "Content 1"));
+    author.addPoem(std::make_shared<FreeVersePoem>("Poem 2", "Content 2"));
+
+    auto poem = author.getPoemByIndex(2);
+    assert(poem != nullptr);
+    assert(poem->getTitle() == "Poem 2");
+
+    auto invalid = author.getPoemByIndex(10);
+    assert(invalid == nullptr);
+}
