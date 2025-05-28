@@ -164,7 +164,7 @@ class PoemLibrary {
         if (type == "lyric")     return std::make_shared<LyricPoem>(title, content);
         if (type == "religious") return std::make_shared<ReligiousPoem>(title, content);
         if (type == "patriotic") return std::make_shared<PatrioticPoem>(title, content);
-        return std::make_shared<FreeVersePoem>(title, content); // fallback
+        return std::make_shared<FreeVersePoem>(title, content); 
     }
 
 public:
@@ -240,9 +240,9 @@ public:
     }
 };
 
-int main() {
-    PoemLibrary library;
-    library.loadFromFile("poems_tagged.txt");
-    library.runInteractiveSession();
-    return 0;
-}
+//int main() {
+//    PoemLibrary library;
+//    library.loadFromFile("poems_tagged.txt");
+//    library.runInteractiveSession();
+//    return 0;
+//}
