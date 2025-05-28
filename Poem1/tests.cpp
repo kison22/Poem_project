@@ -30,3 +30,7 @@ void testAuthorPoemByIndex() {
     auto invalid = author.getPoemByIndex(10);
     assert(invalid == nullptr);
 }
+void testLibraryLoad() {
+    PoemLibrary library;
+    library.loadFromFile("poems_tagged.txt");
+}
