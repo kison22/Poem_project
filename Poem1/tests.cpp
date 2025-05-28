@@ -30,7 +30,35 @@ void testAuthorPoemByIndex() {
     auto invalid = author.getPoemByIndex(10);
     assert(invalid == nullptr);
 }
+
 void testLibraryLoad() {
     PoemLibrary library;
     library.loadFromFile("poems_tagged.txt");
+}
+
+void testSonnetPoemDisplayWarning() {
+    std::string shortSonnet =
+        "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7\n"
+        "Line 8\nLine 9\nLine 10\nLine 11\nLine 12"; 
+
+    SonnetPoem sonnet("Short Sonnet", shortSonnet);
+
+    std::ostringstream oss;
+    std::streambuf* oldCout = std::cout.rdbuf(oss.rdbuf());  
+    sonnet.display();
+    std::cout.rdbuf(oldCout);  
+
+    std::string output = oss.str();
+    assert(output.find("Short Sonnet") != std::string::npos);
+    assert(output.find("Line 12") != std::string::npos);
+    assert(output.find("Warning: not exactly 14 lines") != std::string::npos);
+}
+
+int main() {
+    testPoemCreation();
+    testAuthorPoemByIndex();
+    testLibraryLoad();
+    testSonnetPoemDisplayWarning();
+    std::cout << "All tests passed!\n";
+    return 0;
 }
